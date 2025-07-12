@@ -1,0 +1,12 @@
+	• Channels : each image contains 3 channels representing the R, G, B values.
+		○ Cv2: images are read in BGR format
+
+Accessing pixels with cv2
+img[r][c] = (b, g, r)
+	
+Colours
+	• Pixel value range: [0, 255]
+	• Black = (0, 0, 0)
+	• White = (255, 255, 255)
+	• Gray = (x, x, x) ie all 3 values same
+	• Increasing saturation of a pixel: increase value of dominant colour by 't', and decrease values of the other twi colours by t/2
